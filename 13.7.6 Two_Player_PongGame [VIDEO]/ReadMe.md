@@ -9,7 +9,7 @@ Date: June 20,2021
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;player 2 paddle controller: key[0] for up, key[1] for down  
 * pong_animated.v -> Pong game with 2 players. Player 1 uses FPGA board switch. Player 2 uses keyboard via UART  
 * uart.v -> UART module for serial communication between FPGA and pc keyboard.  
-* vga_core.v -> VGA controller for a 640x480 @60Hz resolution  
+* vga_core.v -> VGA controller for a 640x480 @20Hz resolution  
 * top_module.ucf -> Constraint file for top_module.v   
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
